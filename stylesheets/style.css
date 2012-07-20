@@ -1,0 +1,193 @@
+/* =========================================
+	Estilo Geral - Gereneral Style
+========================================= */ 
+
+body {
+	background-color: #ededee;
+	font-size: 14px;
+	font-family: Helvetica, Verdana, Arial;	/* acrescentei definição das fontes a serem usadas */
+}
+
+#wrapper {  	
+        width: 1000px;  
+	height: auto;
+        margin:0 auto;            
+        padding: 0px;  
+        text-align:left; 
+} 
+
+#wrapper img{
+	border: none;  /* tira as bordas das imagens que o IE poe automaticamente */
+}
+
+/* =========================================
+    Topo Redes Sociais - Top Social Networks
+========================================= */ 
+
+.redes {
+	float: right;
+	margin: 0px 0px 0px 10px;
+}
+
+#header {
+	width: 1000px;
+	height: 50px;
+}
+
+/* =========================================
+    Logotipo - Logo
+========================================= */ 
+#nav {
+	width: 1000px;
+	height: 90px;
+	padding: 0px;
+}
+
+#nav .log {
+	float: left;
+}
+
+#nav .marca {
+	float: left;
+	margin: 0px 0px 0px 10px;
+}
+
+/* =========================================
+    Menu - Menu
+========================================= */ 
+#nav li{
+	float: left;	
+	margin: 00px 10px 10px 0;
+} 
+
+#nav ul {
+	float: left;
+	list-style: none;
+	margin: 30px 0 0 115px;
+}
+
+a.botao {
+	background: #c8c8c8;
+	color: black;
+	width: 100px;
+	height: 20px;
+	float: left;
+	text-decoration: none;
+	border: 3px solid white;
+	border-radius: 10px;
+	padding: 10px;
+	margin:  0px 10px 10px 0px;
+	text-align: center;
+	font-weight: bold;	
+}
+
+#nav a:hover{
+	color: white;
+	background: black;
+}
+
+/* =========================================
+    Conteúdo Principal - Main Content
+========================================= */ 
+#article {
+	width: 1000px;
+	height: 280px;
+}
+
+#article img{
+	width: 250px;
+	height: 250px;
+	float: left;
+	position:absolute;
+	top: 180px;
+	left: 450px ;
+	opacity: 0; 
+}
+
+
+#article .recuo {
+	margin: 30px 0px 0px 550px;
+}
+
+#article h1 {
+	font-size: 2em;
+}
+
+#article a{
+	border: 3px solid white;
+	text-decoration: none;
+	font-weight: bold;
+	color: black;
+	background: #c8c8c8;
+	border-radius: 10px;	
+	padding: 10px;
+}
+
+#article ul {
+	list-style: none;
+	position: absolute;
+	top: 170px;
+	left: 365px;
+}
+
+#article li {
+	padding: 11px;
+	margin: 0px 0px 15px 0px;
+}
+
+#article a:hover{
+	color: white;
+	background: black;
+}
+
+/* =========================================
+   Subtítulo - Subtitle
+========================================= */ 
+
+#box1 {
+	width: 300px;
+	float: left;
+	padding-right: 50px;	
+}
+
+#box2 {
+	width: 300px;
+	float: left;
+	padding-right: 50px;	
+}
+
+#box3 {
+	width: 300px;
+	float: left;
+	padding-right: 0px;	
+}
+
+/* =========================================
+   Rodapé - Footer
+========================================= */ 
+#footer {
+	width: 1000px;
+	float: left;
+}
+
+#footer img{
+	margin: 20px 0px 20px 500px;
+	width: 80px;
+	float: right;
+}
+
+#footer a{
+	text-decoration: none;
+	color: black;
+}
+
+#footer li{
+	float: left;
+	display: inline;
+	margin: 25px 20px 0px 00px;
+}
+
+#footer ul {
+	float: left;
+	padding: 0px;
+}
